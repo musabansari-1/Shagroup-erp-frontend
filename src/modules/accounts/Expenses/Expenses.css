@@ -1,0 +1,19 @@
+.expenses{
+    height: 85vh;
+}
+
+.expenses__card{
+    height: 84vh;
+    overflow-y: scroll;
+}
+
+.expenses__cardBody{
+    /* background-color: #F5F5F5; */
+    /* background-color: black; */
+}
+
+.expenses__button{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

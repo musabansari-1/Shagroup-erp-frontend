@@ -1,0 +1,18 @@
+.cognitiveList{
+    width: 100%;
+    height: 85vh;
+    overflow-y: scroll;
+    box-shadow: 5px 5px 5px 3px black;
+}
+
+
+.tableRow:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.table__header{
+    display: flex;
+    justify-content: space-between;
+}

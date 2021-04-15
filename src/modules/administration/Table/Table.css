@@ -1,0 +1,10 @@
+.tableRow:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.table__header{
+    display: flex;
+    justify-content: space-between;
+}

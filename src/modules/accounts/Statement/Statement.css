@@ -1,0 +1,52 @@
+.statement__card{
+    height: 83vh;
+    /* height: auto; */
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px black;
+}
+
+.statement__header{
+    display: flex;
+}
+
+.statement__dates{
+    display: flex;
+    justify-content: space-evenly;
+    flex: 0.3;
+    align-items: center;
+}
+
+.statement__form{
+    display: flex;
+    flex: 0.6;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.statement__label{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 800;
+}
+
+.statement button {
+    margin-left: 10px;
+}
+
+.statement__balance{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.statement p {
+    font-weight: 800;
+}
+
+@media print{
+    .statement__card{
+        height: auto;
+    }
+    .statement__card button{
+        display: none;
+    }
+}    

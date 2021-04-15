@@ -1,0 +1,58 @@
+.cognitive{
+    height: 82vh;
+    width: 100%;
+    /* margin-top: 10vh; */
+    overflow-x: hidden; 
+    animation: zoom 0.5s ease-in; 
+    box-shadow: 5px 5px 5px 3px black;
+}
+
+
+
+
+h3,h4{
+   margin: 0; 
+}
+.cognitive__card{
+    height: 100%;
+    width: 100%;
+    /* box-shadow: 5px 5px 5px 5px black; */
+    overflow-y: scroll;
+    /* margin: 2%; */
+    overflow-x: hidden;
+}
+
+
+
+.cognitive__row1,
+.cognitive__row2,
+.cognitive__row3,
+.cognitive__row4{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.cognitive__row1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cognitive_row1_col1_rows{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cognitive_row1_col1_rows_cols{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cognitive_row2_col1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}

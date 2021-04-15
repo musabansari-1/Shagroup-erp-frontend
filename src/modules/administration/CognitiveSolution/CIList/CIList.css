@@ -1,0 +1,14 @@
+.content{
+    width: 100%;
+    height: 100vh;
+}
+.tableRow:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.table__header{
+    display: flex;
+    justify-content: space-between;
+}

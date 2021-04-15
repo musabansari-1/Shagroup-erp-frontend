@@ -1,0 +1,10 @@
+.aiRegistration{
+    height: 85vh;
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px 3px black;
+}
+
+.aiRegistration h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

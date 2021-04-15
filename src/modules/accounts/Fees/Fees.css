@@ -1,0 +1,5 @@
+@media print{
+    .fees .scrollableCard{
+        height: auto;
+    }
+}    

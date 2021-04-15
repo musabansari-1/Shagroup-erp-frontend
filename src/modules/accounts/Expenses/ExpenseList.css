@@ -1,0 +1,17 @@
+.expenseCard{
+    height: 84vh;
+    overflow: scroll;
+    box-shadow: 3px 3px 3px black;
+}
+
+.expenseList__notPaid{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    /* align-items: center; */
+}
+@media print{
+    .expenseCard{
+        height: auto;
+    }
+}    

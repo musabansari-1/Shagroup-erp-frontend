@@ -1,0 +1,8 @@
+.navbar{
+    color: 'white'!important;
+    /* background-color: white; */
+}
+
+.navigationBar a.dropdown-toggle::after{
+    left: 4%;
+}

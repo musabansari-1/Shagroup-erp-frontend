@@ -1,0 +1,41 @@
+.reciept{
+text-align: left;
+}
+
+.reciept__card{
+            box-shadow: "3px 3px 3px black";
+              height: 84vh;
+              width: 100%;
+              margin-left: auto;
+              margin-right: auto;
+              overflow: scroll;
+}
+
+
+@media print{
+    #printbtn{
+        display: none;
+    }
+    .sidebar{
+        display: none
+    }
+    ::-webkit-scrollbar{
+        display: none;
+    }
+
+    .reciept__card{
+        margin-top: 5vh;
+        height: auto;
+        overflow: visible;
+    }
+
+
+    
+}
+
+.receipt__info{
+    /* text-align: left !important; */
+    border-bottom: 1px dashed    black;
+    /* margin-bottom: 10px; */
+    margin-top: 30px;
+}
