@@ -571,17 +571,17 @@ const AIDetailView = (props) => {
             <Input
               type="date"
               name="start_date"
-              onChange={internshipInputHandler}
+              onChange={batchInputHandler}
             />
           </FormGroup>
-          <FormGroup>
+          {/* <FormGroup>
             <Label for="">End Date</Label>
             <Input
               type="date"
               name="end_date"
-              onChange={internshipInputHandler}
+              onChange={batchInputHandler}
             />
-          </FormGroup>
+          </FormGroup> */}
           <FormGroup>
             <Label for="">From Time</Label>
             <Input type="time" name="from_time" onChange={batchInputHandler} />

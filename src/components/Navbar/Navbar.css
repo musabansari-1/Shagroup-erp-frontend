@@ -6,3 +6,38 @@
 .navigationBar a.dropdown-toggle::after{
     left: 4%;
 }
+
+.fa-user-circle-o{
+    font-size: 33px !important;
+    /* background-color: black !important; */
+    color: #17A2B8 !important;
+}
+
+
+
+
+
+.dropdown__menu{
+    /* background-color: #17A2B8 !important; */
+    background-color: black !important;
+    color: white !important;
+}
+
+/* .dropdown__menu:hover{
+    background-color: white !important;
+    color: #17A2B8 !important;
+} */
+
+.dropdown__item{
+    outline: none !important;
+    font-weight: 800 !important;
+    color: white !important;
+    /* border-bottom: 1px solid white !important; */
+}
+
+.dropdown__item:hover{
+    /* background-color: #17A2B8 !important; */
+    background-color: black !important;
+    /* font-size: 17px; */
+    /* font-weight: 800 !important; */
+}

@@ -75,14 +75,19 @@ const Navigationbar = (props) => {
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown> */}
-            <UncontrolledDropdown nav inNavbar>
+            <UncontrolledDropdown>
               <DropdownToggle nav caret>
               <i className="fa fa-user-circle-o"  aria-hidden="true"></i>
+              {/* <i class="fa fa-user" aria-hidden="true"></i> */}
+              {/* <i class="fas fa-sign-out-alt" aria-hidden="true"></i> */}
               </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem onClick={logoutHandler}>
+              <DropdownMenu right className="dropdown__menu">
+                <DropdownItem onClick={logoutHandler} className="dropdown__item">
                   Logout
                 </DropdownItem>
+                {/* <DropdownItem onClick={logoutHandler} className="dropdown__item">
+                  Logout
+                </DropdownItem> */}
                 {/* <DropdownItem>
                   Option 2
                 </DropdownItem>

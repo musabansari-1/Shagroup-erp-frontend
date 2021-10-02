@@ -44,6 +44,9 @@ const Reciept = (props) => {
       )
       .then((res) => {
       setDetail(res.data);
+      const amount = numToString(res.data.amount.toString());
+        console.log("amount in words" + amount);
+        setAmountInWords(amount);
 
         axios
       .get(
@@ -71,6 +74,7 @@ const Reciept = (props) => {
       .then((res) => {
         setDetail(res.data);
         const amount = numToString(res.data.amount.toString());
+        console.log("amount in words" + amount);
         setAmountInWords(amount);
         axios
       .get(
@@ -108,6 +112,9 @@ const Reciept = (props) => {
       )
       .then((res) => {
         setDetail(res.data);
+        const amount = numToString(res.data.amount.toString());
+        console.log("amount in words" + amount);
+        setAmountInWords(amount);
         axios
       .get(
         `administration/cognitive_solutions/programs/academic_workshops/${res.data.received_from}/`,
@@ -150,6 +157,9 @@ const Reciept = (props) => {
         // setReceivedFrom(res.data.name);
         console.log("detail" + res.data)
         setDetail(res.data);
+        const amount = numToString(res.data.amount.toString());
+        console.log("amount in words" + amount);
+        setAmountInWords(amount);
 
         axios
       .get(
@@ -196,6 +206,9 @@ const Reciept = (props) => {
       .then((res) => {
         // setReceivedFrom(res.data.name);
         setDetail(res.data);
+        const amount = numToString(res.data.amount.toString());
+        console.log("amount in words" + amount);
+        setAmountInWords(amount);
         axios
       .get(
         `administration/cognitive_solutions/programs/cognitive_workshops/${res.data.received_from}/`,
@@ -240,6 +253,9 @@ const Reciept = (props) => {
       .then((res) => {
         // setReceivedFrom(res.data.name);
         setDetail(res.data);
+        const amount = numToString(res.data.amount.toString());
+        console.log("amount in words" + amount);
+        setAmountInWords(amount);
         axios
       .get(
         `administration/cognitive_solutions/programs/employee_internships/${res.data.received_from}/`,

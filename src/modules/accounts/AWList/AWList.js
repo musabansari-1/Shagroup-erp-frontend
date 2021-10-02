@@ -217,7 +217,7 @@ const AWList = ({url}) => {
             <Card>
               <CardHeader className="table__header">
                 <CardTitle tag="h4">Students</CardTitle>
-                <form >
+                {/* <form >
               <InputGroup className="no-border search">
                 <Input  placeholder="Search..." />
                 <InputGroupAddon addonType="append">
@@ -226,7 +226,7 @@ const AWList = ({url}) => {
                   </InputGroupText>
                 </InputGroupAddon>
               </InputGroup>
-              </form>
+              </form> */}
               </CardHeader>
               <CardBody>
                 <Table>
